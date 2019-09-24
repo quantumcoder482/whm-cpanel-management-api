@@ -20,7 +20,6 @@
     $(document).ready(function() {
         $('#btn_gotopage').click(function(e) {
             e.preventDefault();
-            console.log('ddd');
             location.href = "http://localhost:10085/post.php";
         });
     });
